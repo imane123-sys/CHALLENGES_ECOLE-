@@ -220,3 +220,8 @@ for (let employe of employes) {
 }
 
 // 5. Créer une fonction cloner(obj) qui retourne une copie de l’objet donné.
+function cloner(obj){
+    return {...obj};
+}
+
+
